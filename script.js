@@ -3,6 +3,9 @@ function isSameType(value1, value2) {
 	if(value1 === value2) {
 		return true;		
 	}
+	else if(value1 === NaN && value2 === NaN) {
+		return true;
+	}	
 	else {
 		return false;
 	}
